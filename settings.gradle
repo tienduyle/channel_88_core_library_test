@@ -1,0 +1,3 @@
+include ':app'
+include ':mf_lib_core'
+project(':mf_lib_core').projectDir = new File('../mf_android_lib_core/mf_lib_core/')
